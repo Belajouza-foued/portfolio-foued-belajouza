@@ -2381,4 +2381,240 @@ input:-webkit-autofill:active {
     width: 100%;
     margin: 0 auto;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
+.nmargin {
+  margin-top: -130px;
+}
+
+
+
+.borderhomeslide::after {
+ content: "";
+ position: absolute;
+ height: 3px;
+ background: #DE3157;
+ top: 100%;
+ width: 50%;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+
+
+
+
+.borderhome2 {
+  width: 100%;
+  margin: 0.2em auto;
+  position: relative;
+}
+
+.borderhome2::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background: #FBDE7A;
+  top: 100%;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.offer {
+ background-image: url("/images/left.png"), url("/images/left.png"), url("/images/right.png");
+  background-position: left top, left bottom, right;
+  background-repeat: no-repeat;
+}
+
+.projects {
+ background-image: url("/images/leftyellow.png"), url("/images/rightyellow.png");
+  background-position: top -55px left 0, bottom right;
+  background-repeat: no-repeat;
+}
+
+.clients {
+ background-image: url("/images/leftred.png"), url("/images/rightred.png");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+.mySlides {
+ display: none;
+}
+
+.prev, .next {
+ cursor: pointer;
+}
+.prev:hover, .next:hover {
+ background-image: url("/images/bg.png");
+}
+
+@media screen and (min-width: 576px) {
+.hr-lines{
+ position: relative;
+ max-width: 350px;
+ margin: 10px auto;
+ text-align: center;
+}
+
+.hr-lines:before{
+ content:" ";
+ display: block;
+ height: 2px;
+ width: 80px;
+ position: absolute;
+ top: 50%;
+ left: 0;
+ background: black;
+}
+
+.hr-white{
+  position: relative;
+  max-width: 350px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hr-white:before{
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: white;
+}
+}
+
+.color-red {
+ color: #DE3157;
+}
+
+.color-yellow {
+ color: #FADE7B;
+}
+
+.bg-yellow {
+ background-color: #FADE7B;
+}
+
+.darkbackground {
+  background-color: #3F3F3F;
+}
+
+.web-development:hover {
+  background-color: #FC7F1A;
+  transition: all 0.5s;
+}
+.web-development:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+.web-development button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
+.web-development:hover button {
+  visibility: visible;
+  transition: transform 250ms;
+  transform: translateY(-10px);
+}
+
+.uiux-design:hover {
+  background-color: #FADDD4;
+  transition: all 0.5s;
+}
+.uiux-design:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.uiux-design button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
+.uiux-design:hover button {
+  visibility: visible;
+  transition: transform 250ms;
+  transform: translateY(-10px);
+}
+
+.mobile-development:hover {
+  background-color: #BA68C8;
+  transition: all 0.5s;
+}
+.mobile-development:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.mobile-development button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
+.mobile-development:hover button {
+  visibility: visible;
+  transition: transform 250ms;
+  transform: translateY(-10px);
+}
+
+ 
+.digital-marketing:hover {
+  background-color: #FFC727;
+  transition: all 0.5s;
+}
+.digital-marketing:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+.digital-marketing button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
+.digital-marketing:hover button {
+  visibility: visible;
+  transition: transform 250ms;
+  transform: translateY(-10px);
+}
+.brand:hover {
+  background-color: #9393E8;
+  transition: all 0.5s;
+}
+.brand:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.brand button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
+.brand:hover button {
+  visibility: visible;
+  transition: transform 250ms;
+  transform: translateY(-10px);
+}
+
+.cloud-development:hover {
+  background-color: #EEFFB2;
+  transition: all 0.5s;
+}
+.cloud-development:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.cloud-development button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
