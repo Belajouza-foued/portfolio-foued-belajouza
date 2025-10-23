@@ -2618,3 +2618,33 @@ input:-webkit-autofill:active {
   transition: transform 450ms;
   transform: translateY(50px);
 }
+/*image adc*/
+.help-adc {
+  width: 550px;
+  height: 300px;
+}
+.login-adc {
+  padding-bottom: 10px;
+  height: 250px;
+}
+.adc-portfolio {
+  height: 250px;
+}
+.adc-red {
+  height: 280px;
+}
+.adc-log {
+  height: 280px;
+  width: 500px;
+}
+.adc-register {
+  height: 280px;
+}
+.dash-2 {
+  height: 280px;
+ 
+}
+.figma {
+  height: 280px;
+}
+/*css pour form*/

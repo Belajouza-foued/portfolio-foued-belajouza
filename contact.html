@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from portfolify-html.vercel.app/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 12:53:02 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <!-- required meta -->
     <meta charset="UTF-8" />
@@ -15,8 +14,10 @@
       name="description"
       content="Protfolily - Responsive Personal Portfolio & Resume HTML Template"
     />
+    
+  <title>Contact - Portfolio</title>
     <!-- #title -->
-    <title>Portfolify - Personal Portfolio & Resume HTML Template</title>
+   
     <!-- #favicon -->
     <link
       rel="shortcut icon"
@@ -32,12 +33,33 @@
       rel="stylesheet"
       href="../cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css"
     />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <!-- AOS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css"
+/>
+
+<!-- Swiper -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+          <!-- Bootstrap -->
+  
 
     <!-- ICON  -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <!-- don't remove this  -->
+       <div id="root"></div> <!-- React sera injecté ici -->
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="11"
@@ -192,20 +214,16 @@
                     <div
                       class="profile-img1 d-flex justify-content-center overflow-hidden"
                     >
-                      <img
-                        src="assets/images/profile.png"
-                        alt="user"
-                        class=""
-                      />
+                    <img src="images/my profile.jpeg" alt="user" class="">
                     </div>
                     <span class="thumb">👋</span>
                   </div>
 
                   <h4 class="n5-color fw-semibold fs-five mt-2 text-center">
-                    Chris Evans
+                    Foued belajouza
                   </h4>
                   <span class="n5-color fs-nine d-block text-center"
-                    >Senior Software Engineer</span
+                    >Full Stack Developer</span
                   >
                   <div
                     class="d-flex justify-content-center gap-2 align-items-center mt-4"
@@ -253,14 +271,7 @@
                         >
                       </a>
                     </li>
-                    <li class="rounded-3">
-                      <a
-                        href="price.html"
-                        class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
-                        ><i class="ph ph-briefcase fs-six"></i>Services &
-                        Pricing</a
-                      >
-                    </li>
+                   
                     <li class="rounded-3">
                       <a
                         href="resume.html"
@@ -268,13 +279,7 @@
                         ><i class="ph ph-notebook fs-six"></i> Resume</a
                       >
                     </li>
-                    <li class="rounded-3">
-                      <a
-                        href="products.html"
-                        class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
-                        ><i class="ph ph-shopping-bag fs-six"></i>Products</a
-                      >
-                    </li>
+                   
                     <li class="rounded-3">
                       <a
                         href="blog.html"
@@ -622,114 +627,59 @@
         <!-- Contact Details section end -->
 
         <!-- Get In Touch section start -->
-        <section class="pb-120">
-          <div class="container">
-            <div data-aos="fade-up" class="section-heading">
-              <div class="d-flex align-items-center gap-2">
-                <div class="title-line"></div>
-                <h2 class="display-four n5-color fw-semibold">Get In Touch</h2>
-              </div>
-              <p class="fs-seven n4-color mt-2 mt-md-4">
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text.
-              </p>
-            </div>
-            <form
-              data-aos="zoom-in"
-              id="contact-form"
-              autocomplete="off"
-              class="mt-8 mt-md-15 p-5 p-md-10 rounded-5 brn4"
-            >
-              <div
-                class="d-flex flex-wrap flex-md-nowrap gap-3 gap-md-6 mb-3 mb-md-6"
-              >
-                <div
-                  class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100"
-                >
-                  <i class="ph ph-octagon p1-color fs-six mb-1"></i>
-                  <input
-                    class="n5-color border-0"
-                    placeholder="Your Name*"
-                    type="text"
-                    id="name"
-                    autocomplete="off"
-                    required
-                  />
-                </div>
-                <div
-                  class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100"
-                >
-                  <i class="ph ph-envelope p1-color fs-six mb-1"></i>
-                  <input
-                    class="n5-color border-0"
-                    placeholder="Email address*"
-                    type="email"
-                    id="email"
-                    autocomplete="off"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="d-flex flex-wrap flex-md-nowrap gap-3 gap-md-6">
-                <div
-                  class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100"
-                >
-                  <i
-                    class="ph ph-device-mobile-camera p1-color fs-six mb-1"
-                  ></i>
-                  <input
-                    class="n5-color border-0"
-                    placeholder="Phone*"
-                    type="number"
-                    id="phone"
-                    autocomplete="off"
-                    required
-                  />
-                </div>
-                <div
-                  class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100"
-                >
-                  <i class="ph ph-map-pin p1-color fs-six mb-1"></i>
-                  <input
-                    class="n5-color border-0"
-                    placeholder="Location*"
-                    type="text"
-                    id="location"
-                    autocomplete="off"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="mt-3 mt-md-6">
-                <textarea
-                  class="n5-color px-3 px-md-6 py-2 py-md-4 rounded-2 brn4 w-100 h-120"
-                  placeholder="Your Message:"
-                  id="message"
-                  autocomplete="off"
-                ></textarea>
-              </div>
+       <!-- ===== Section Contact ===== -->
+  <section class="pb-120">
+   
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Get In Touch</h2>
+    <p class="text-center mb-5">Send me a message — I'll respond as soon as possible.</p>
 
-              <div class="d-flex gap-2 align-items-center mt-3 mt-md-5">
-                <input
-                  id="check"
-                  type="checkbox"
-                  class="cursor-pointer checkbox-single"
-                />
-                <label for="check" class="n4-color fs-nine cursor-pointer">
-                  Save my name, email, and website in this browser for the next
-                  time.
-                </label>
-              </div>
-              <button
-                id="contact-submit-btn"
-                class="primary-btn fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill mt-5 mt-md-10"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-        </section>
+    <form id="contact-form" autocomplete="off" class="p-4 rounded-3 border shadow-sm">
+        <div class="mb-3">
+            <input type="text" id="name" class="form-control" placeholder="Your Name*" required>
+        </div>
+        <div class="mb-3">
+            <input type="email" id="email" class="form-control" placeholder="Email address*" required>
+        </div>
+        <div class="mb-3">
+            <input type="number" id="phone" class="form-control" placeholder="Phone*" required>
+        </div>
+        <div class="mb-3">
+            <input type="text" id="location" class="form-control" placeholder="Location*" required>
+        </div>
+        <div class="mb-3">
+            <textarea id="message" class="form-control" placeholder="Your Message:" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+    </form>
+   <!--tableau pour contact-->
+   <h3 class="text-center mt-5">📋 Liste des messages reçus</h3>
+<table class="table table-bordered table-striped mt-3" id="contact-table">
+  <thead class="table-dark">
+    <tr>
+      <th>Nom</th>
+      <th>Email</th>
+      <th>Téléphone</th>
+      <th>Localisation</th>
+      <th>Message</th>
+        <th>Actions</th>
+          </tr>
+  </thead>
+  <tbody id="contact-table-body">
+    <!-- Les données seront insérées ici via JS -->
+  </tbody>
+</table>
+
+    <div class="mt-5 text-center">
+        <p>Un programme sur mesure pour débutantes.</p>
+        <p id="more-text" style="display: none;">
+            Ce programme est conçu pour renforcer la confiance en soi des participantes, 
+            avec des séances adaptées à leur niveau et des conseils nutritionnels.
+        </p>
+        <button id="read-more-btn" class="btn btn-outline-primary mt-2">Read more</button>
+    </div>
+</div>
+  </section>
         <!-- Get In Touch section end -->
 
         <!-- footer section start -->
@@ -767,6 +717,26 @@
     ></script>
     <!-- aos -->
     <script src="../unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+  <!-- ton script de contact -->
+  <script src="assets/js/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+<script>
+  // Bouton Read More
+  const readMoreBtn = document.getElementById("read-more-btn");
+  const moreText = document.getElementById("more-text");
+
+  readMoreBtn.addEventListener("click", () => {
+    if (moreText.style.display === "none") {
+      moreText.style.display = "block";
+      readMoreBtn.innerText = "Read less";
+    } else {
+      moreText.style.display = "none";
+      readMoreBtn.innerText = "Read more";
+    }
+  });
+</script>
+
 
   </body>
 
