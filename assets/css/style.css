@@ -58,6 +58,9 @@ body {
   --n51: 79, 79, 79;
   --y1: 255, 172, 39;
 }
+.profile-fou {
+  border-radius:50px !important;
+}
 
 .display-one {
   font-size: 80px;
@@ -1670,12 +1673,16 @@ input:-webkit-autofill:active {
     opacity: 0;
   }
 }
-
+.bg-white {
+  border-radius: 5%;
+}
 .user-bg {
-  width: 325px;
-  height: 407px;
+  width: 400px;
+  height: 400px;
   background-color: rgba(var(--p1), 1);
   animation: rotatedBg 10s infinite linear;
+    border-radius: 5%;
+  
 }
 
 @keyframes rotatedBg {
@@ -1689,9 +1696,15 @@ input:-webkit-autofill:active {
 .user-img {
   position: absolute;
   top: 0px;
-  width: 325px;
-  height: 407px;
-}
+  width: 450px;
+  height: 400px;
+  z-index: 0;
+  border-radius: 10px;
+ }
+ .user-title {
+
+  z-index: 1;
+ }
 
 .line {
   width: 1px;
@@ -1720,7 +1733,8 @@ input:-webkit-autofill:active {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-}
+  margin-top: 100px;
+  }
 .next-project .next-project-content {
   width: 636px;
 }
@@ -2297,7 +2311,7 @@ input:-webkit-autofill:active {
     width: 100%;
   }
   .profile-img {
-    left: 50%;
+       left: 50%;
     transform: translateX(-50%);
   }
   .banner-counter {
@@ -2503,7 +2517,9 @@ input:-webkit-autofill:active {
 .darkbackground {
   background-color: #3F3F3F;
 }
-
+.web-development {
+  padding-top: 50px;
+}
 .web-development:hover {
   background-color: #FC7F1A;
   transition: all 0.5s;
@@ -2587,6 +2603,7 @@ input:-webkit-autofill:active {
 .brand:hover {
   background-color: #9393E8;
   transition: all 0.5s;
+  
 }
 .brand:hover img {
   transform: scale(1.1);
@@ -2596,7 +2613,7 @@ input:-webkit-autofill:active {
   visibility: hidden;
   will-change: transform;
   transition: transform 450ms;
-  transform: translateY(50px);
+  transform: translateY(40px);
 }
 .brand:hover button {
   visibility: visible;
@@ -2607,6 +2624,7 @@ input:-webkit-autofill:active {
 .cloud-development:hover {
   background-color: #EEFFB2;
   transition: all 0.5s;
+   padding: 30px;
 }
 .cloud-development:hover img {
   transform: scale(1.1);
@@ -2648,3 +2666,55 @@ input:-webkit-autofill:active {
   height: 280px;
 }
 /*css pour form*/
+.img-nest {
+  width: 60px;
+ 
+}
+.service-icon {
+  width: 50px;
+}
+.hover-animate:hover {
+background-color: #2573fb;
+  }
+.profile-img {
+    will-change: transform;
+    transition: transform 450ms ease-in-out;
+    transform: translateX(100px);
+    opacity: 0;
+    animation: slideLeft 5s ease-in-out forwards alternate;
+    overflow: hidden;
+    border-radius: 5%;
+
+}
+.profile-img:hover
+
+{
+    transition: transform 250ms ease-out, opacity 250ms;
+    transform: translateX(-200px);
+    opacity: 1;
+    overflow: hidden;
+      border-radius: 5%;
+  }
+  @keyframes  slideLeft  {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1; 
+      transform: translatex(-150px);
+    }
+  }
+ /*resume drop*/
+.accordion-button::after {
+  filter: invert(1); /* rend la flèche blanche si fond sombre */
+}
+.accordion-button {
+  border-radius: 10px !important;
+}
+
+

@@ -17323,3 +17323,25 @@ fieldset:disabled .btn {
     display: none !important;
   }
 } /*# sourceMappingURL=bootstrap.min.css.map */
+.block-card {
+  position: relative; /* nécessaire pour positionner le ::before à l'intérieur */
+  overflow: hidden;   /* empêche ::before de dépasser */
+}
+
+/* Pseudo-élément avant le contenu */
+.block-card .block-img::before {
+  content: ""; /* obligatoire, même vide */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0; /* largeur initiale 0 → effet visuel possible */
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.3); /* couleur semi-transparente rouge */
+  transition: all 0.5s ease-in-out;
+}
+
+/* Quand on survole */
+.block-card .block-img:hover::before {
+  width: 100%; /* le ::before s’étend sur toute la largeur */
+}
+

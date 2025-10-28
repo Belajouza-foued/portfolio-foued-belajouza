@@ -3,6 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <title>Modifier le contact</title>
+  <link rel="stylesheet" href="assets/css/edit.css" />
+   <link
+      rel="shortcut icon"
+      href="assets/images/fofo-2.jpg"
+      type="image/x-icon"
+    />
+    <!-- ==== css dependencies start ==== -->
+
+    <link rel="stylesheet" href="../unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+    <!-- swiper  -->
+    <link
+      rel="stylesheet"
+      href="../cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css"
+    />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+        <!-- AOS -->
 </head>
 <body>
   <h2>Modifier le contact</h2>
@@ -15,9 +40,38 @@
     <textarea id="message" placeholder="Message"></textarea><br />
     <button type="submit">💾 Enregistrer</button>
   </form>
-    <h1 id="titre">Bonjour tout le monde 👋</h1>
-  <button id="btn">Changer le texte</button>
-
+   
   <script src="assets/js/edit.js"></script>
+    <!-- script js  -->
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- swiper js  -->
+    <script src="../cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
+    <!-- email js  -->
+    <script
+      type="text/javascript"
+      src="../cdn.jsdelivr.net/npm/%40emailjs/browser%404/dist/email.min.js"
+    ></script>
+    <!-- aos -->
+    <script src="../unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+  <!-- ton script de contact -->
+  <script src="assets/js/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+<script>
+  // Bouton Read More
+  const readMoreBtn = document.getElementById("read-more-btn");
+  const moreText = document.getElementById("more-text");
+
+  readMoreBtn.addEventListener("click", () => {
+    if (moreText.style.display === "none") {
+      moreText.style.display = "block";
+      readMoreBtn.innerText = "Read less";
+    } else {
+      moreText.style.display = "none";
+      readMoreBtn.innerText = "Read more";
+    }
+  });
+</script>
 </body>
 </html>
