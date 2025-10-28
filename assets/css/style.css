@@ -934,6 +934,9 @@ span {
 .cursor-pointer {
   cursor: pointer;
 }
+.cursor-pointer:hover {
+  color: #2573fb;
+}
 
 .h-700 {
   height: 700px;
